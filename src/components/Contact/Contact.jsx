@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
+        <div className="relative flex items-top justify-center min-h-[700px] bg-gradient-to-b from-orange-400 via-pink-400 to-red-500 sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
                     <div className="grid grid-cols-1 md:grid-cols-2">
@@ -38,7 +38,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="text-md tracking-wide font-semibold">
-                                    Acme Inc, Street, State, Postal Code
+                                    New Jersey,Street, State, Postal Code
                                 </div>
                             </div>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="text-md tracking-wide font-semibold">
-                                    info@acme.org
+                                    info@xyz.org
                                 </div>
                             </div>
                         </div>

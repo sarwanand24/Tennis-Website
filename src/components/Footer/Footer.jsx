@@ -48,9 +48,19 @@ export default function Footer() {
                                         Home
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <Link to="/about" className="hover:text-white transition-colors duration-300">
                                         About
+                                    </Link>
+                                </li>
+                                <li className="mb-4">
+                                    <Link to="/contact" className="hover:text-white transition-colors duration-300">
+                                        Contact
+                                    </Link>
+                                </li>
+                                <li className="mb-4">
+                                    <Link to="/qna" className="hover:text-white transition-colors duration-300">
+                                        QnA
                                     </Link>
                                 </li>
                             </ul>

@@ -121,10 +121,11 @@ function CommentSection() {
   ];
 
   return (
+    <div className="bg-gradient-to-b from-green-800 to-yellow-900">
     <div className="max-w-3xl mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">FAQ's</h1>
+      <h1 className="text-3xl font-bold mb-6 text-white">FAQ's</h1>
       <FAQAccordion faqs={faqs} />
-      <h1 className="text-3xl font-bold mt-10 mb-6">All Comments</h1>
+      <h1 className="text-3xl font-bold mt-10 mb-6 text-white">All Comments</h1>
       <div className="mb-4">
         <input
           type="text"
@@ -171,6 +172,7 @@ function CommentSection() {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 }
