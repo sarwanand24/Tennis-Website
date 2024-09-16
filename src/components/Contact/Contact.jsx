@@ -82,7 +82,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="text-md tracking-wide font-semibold">
-                                    info@xyz.org
+                                aggyd117@gmail.com
                                 </div>
                             </div>
                         </div>
