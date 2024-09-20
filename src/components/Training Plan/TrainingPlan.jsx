@@ -19,7 +19,7 @@ export default function TrainingPlan() {
                     <div className="flex flex-col items-center justify-center mb-8">
                         <iframe
                             className="w-full h-auto rounded-lg"
-                            src="https://www.youtube.com/embed/VIDEO_ID_1"
+                            src="https://www.youtube.com/embed/_Li7Q0IVEvA?si=xeAO8LnJ1vNFIEAQ"
                             title="Injury Prevention Training Video 1"
                             allowFullScreen
                         ></iframe>

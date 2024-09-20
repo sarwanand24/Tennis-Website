@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../../assets/img1.jpeg';
 import img2 from '../../assets/img2.jpeg';
+import img3 from '../../assets/img3.jpeg';
 
 export default function About() {
     return (
@@ -19,7 +20,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="mt-8">
-                        <img src="https://via.placeholder.com/800x400" alt="Tennis Court" className="w-full rounded-lg animate-pulse" />
+                        <img src={img3} alt="Tennis Court" className="w-full rounded-lg animate-pulse" />
                     </div>
                 </div>
             </div>
